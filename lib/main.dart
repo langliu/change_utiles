@@ -16,9 +16,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: '研之有物',
-      theme: FlexThemeData.light(scheme: FlexScheme.sakura),
-      darkTheme: FlexThemeData.dark(scheme: FlexScheme.sakura),
-      themeMode: ThemeMode.light,
+      theme: FlexThemeData.light(scheme: FlexScheme.material),
+      darkTheme: FlexThemeData.dark(scheme: FlexScheme.material),
+      themeMode: ThemeMode.system,
       initialRoute: Routes.home,
       getPages: Pages.pages,
     );
